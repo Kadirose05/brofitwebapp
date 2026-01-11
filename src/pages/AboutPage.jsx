@@ -201,12 +201,10 @@ const AboutPage = () => {
                 key={instructor.id}
                 className="bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
               >
-                <div className="h-48 overflow-hidden">
-                  <img 
-                    src={instructor.image} 
-                    alt={instructor.name}
-                    className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                  />
+                <div className="bg-gradient-to-br from-gray-700 to-gray-900 h-48 flex items-center justify-center">
+                  <div className="w-24 h-24 bg-orange-500 rounded-full flex items-center justify-center text-white text-3xl font-bold">
+                    {instructor.name.split(' ').map(n => n[0]).join('')}
+                  </div>
                 </div>
                 <div className="p-6">
                   <h3 className="text-xl font-bold text-gray-900">{instructor.name}</h3>
