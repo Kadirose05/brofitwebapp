@@ -229,47 +229,7 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-
-      {/* FAQ Section */}
-      <section className="py-20 bg-white">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-              Frequently Asked <span className="text-orange-500">Questions</span>
-            </h2>
-            <p className="text-gray-600">
-              Got questions? We've got answers.
-            </p>
-          </div>
-
-          <div className="space-y-4">
-            {faqData.faqs.map((faq) => (
-              <div
-                key={faq.id}
-                className="bg-gray-50 rounded-xl overflow-hidden"
-              >
-                <button
-                  onClick={() => setOpenFaq(openFaq === faq.id ? null : faq.id)}
-                  className="w-full px-6 py-4 text-left flex items-center justify-between hover:bg-gray-100 transition-colors"
-                >
-                  <span className="font-semibold text-gray-900">{faq.question}</span>
-                  {openFaq === faq.id ? (
-                    <ChevronUp className="h-5 w-5 text-orange-500 flex-shrink-0" />
-                  ) : (
-                    <ChevronDown className="h-5 w-5 text-gray-400 flex-shrink-0" />
-                  )}
-                </button>
-                {openFaq === faq.id && (
-                  <div className="px-6 pb-4 text-gray-600">
-                    {faq.answer}
-                  </div>
-                )}
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
-
+      
       {/* Contact Section */}
       <section className="py-20 bg-gray-900 text-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
