@@ -28,7 +28,7 @@
     },
     {
       "id": 3,
-      "name": "Emma Wilson",
+      "name": "Sara Saffari",
       "specialty": "Pilates & Core Training",
       "experience": 10,
       "bio": "Emma discovered Pilates during her recovery from a sports injury and has been passionate about teaching it ever since. She focuses on proper form and injury prevention.",
@@ -37,7 +37,7 @@
         "Reformer Specialist",
         "Injury Rehabilitation"
       ],
-      "image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?w=400&h=400&fit=crop&crop=face"
+      "image": "/src/assets/Sara_Saffari_Quotes.webp"
     },
     {
       "id": 4,
