@@ -52,7 +52,7 @@ Many fitness centers lack a digital presence, forcing members to handle everythi
 ## 📁 Project Structure
 
 ```
-brofit/
+brofitwebapp/
 ├── public/
 ├── src/
 │   ├── components/          # Reusable UI components
@@ -104,7 +104,7 @@ brofit/
 
 1. **Navigate to project directory**
    ```bash
-   cd brofit
+   cd brofitwebapp
    ```
 
 2. **Install dependencies**
