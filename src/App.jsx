@@ -10,6 +10,7 @@ import ClassesPage from './pages/ClassesPage';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
 import DashboardPage from './pages/DashboardPage';
+import FAQPage from './pages/FAQPage';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
                         <Route path="/about" element={<AboutPage />} />
                         <Route path="/pricing" element={<PricingPage />} />
                         <Route path="/classes" element={<ClassesPage />} />
+                        <Route path="/faq" element={<FAQPage />} />
                         <Route path="/dashboard" element={<DashboardPage />} />
                       </Routes>
                     </main>
