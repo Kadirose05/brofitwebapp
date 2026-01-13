@@ -75,7 +75,8 @@ brofitwebapp/
 │   │
 │   ├── pages/              # Page components
 │   │   ├── HomePage.jsx    # Landing page
-│   │   ├── AboutPage.jsx   # About, facilities, FAQ
+│   │   ├── AboutPage.jsx   # About, facilities
+│   │   ├── FAQPage.jsx     # FAQ
 │   │   ├── PricingPage.jsx # Membership plans
 │   │   ├── ClassesPage.jsx # Class booking
 │   │   ├── DashboardPage.jsx # User dashboard
