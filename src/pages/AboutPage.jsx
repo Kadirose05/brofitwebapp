@@ -5,8 +5,6 @@ import {
   Heart, 
   Users, 
   Award,
-  ChevronDown,
-  ChevronUp,
   MapPin,
   Phone,
   Mail,
@@ -21,7 +19,6 @@ import {
 } from 'lucide-react';
 import instructorsData from '../data/instructors.json';
 import facilitiesData from '../data/facilities.json';
-import faqData from '../data/faq.json';
 
 const facilityIcons = {
   dumbbell: Dumbbell,
@@ -35,7 +32,6 @@ const facilityIcons = {
 };
 
 const AboutPage = () => {
-  const [openFaq, setOpenFaq] = useState(null);
 
   const values = [
     {
